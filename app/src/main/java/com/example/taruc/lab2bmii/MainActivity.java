@@ -11,7 +11,7 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = " com.example.taruc.lab2bmii.MESSAGE";
-    EditText editTxtWeight, editTxtHeight;
+    EditText editTxtWeight, editTxtHeight, editTxtABC;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
