@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void calculateBMI(View view) {
         double weight, height, result;
+        int abc = 0;
         if (TextUtils.isEmpty(editTxtHeight.getText())) {
             editTxtHeight.setError("Please enter body height");
         } else if (TextUtils.isEmpty(editTxtWeight.getText())) {
